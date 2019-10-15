@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0; 
+  }
+.p-70 {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .font16 {
+	  font-size:1rem;
+  }
+  .font32 {
+	  font-size:2rem;
+  }
+  .font18 {
+	  font-size: 18px;
+  }
+  .font45 {
+	  font-size:45px;
+  }
+  .font30 {
+	font-size:30px;
+  }
+  .font20 {
+	  font-size:20px;
+  }
+ .my_footer {
+	 width: 100%;
+	 height: 50rem;
+ }
+.h50 {
+	height: 50px;
+}
