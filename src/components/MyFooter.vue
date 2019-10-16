@@ -1,6 +1,6 @@
 <template>
     <!-- footer -->
-    <div class="container-fluid bg-dark text-center">
+    <div class="container-fluid bg-dark text-center positionfixed">
         <div class="row footer-bg py-4">
             <div class="col-lg-4 col-md-12">
                 <p class="text-white text-center font16 py-3 mb-0">Copyright © 2019.Company name All rights reserved. <a
@@ -42,6 +42,10 @@
 </script>
 
 <style>
+    .positionfixed {
+        position: absolute;
+        bottom: 0px;
+    }
     .line01{
         margin:10px auto;
         max-width:90px;
