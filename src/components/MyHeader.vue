@@ -13,22 +13,22 @@
           <div id="content" class="collapse navbar-collapse bg-dark">
             <ul class="navbar-nav ">
               <li class="nav-item ml-3">
-                <a class="nav-link font16 text-white letter-spacing" href="#">HOME</a>
+                <router-link to="home" class="nav-link font16 text-white letter-spacing" href="#">HOME</router-link>
               </li>
               <li class="nav-item  ml-3">
-                <a class="nav-link font16 text-white letter-spacing" href="#bread">BREAD</a>
+                <router-link to="bread" class="nav-link font16 text-white letter-spacing" href="#bread">BREAD</router-link>
               </li>
               <li class="nav-item  ml-3">
-                <a class="nav-link font16 text-white letter-spacing " href="#web">WEB 1905</a>
+                <router-link to="web" class="nav-link font16 text-white letter-spacing " href="#web">WEB 1905</router-link>
               </li>
               <li class="nav-item ml-3">
-                <a class="nav-link font16 text-white letter-spacing " href="#dog">DOG SHOW</a>
+                <router-link to="dog" class="nav-link font16 text-white letter-spacing " href="#dog">DOG SHOW</router-link>
               </li>
               <li class="nav-item  ml-3">
-                <a class="nav-link font16 text-white letter-spacing d-md-none d-lg-block" href="#ser">SERVICE</a>
+                <router-link to="service" class="nav-link font16 text-white letter-spacing d-md-none d-lg-block" href="#ser">SERVICE</router-link>
               </li>
               <li class="nav-item ml-3">
-                <a class="nav-link font16 text-white letter-spacing d-md-none d-lg-block" href="#con">CONTACT</a>
+                <router-link to="content" class="nav-link font16 text-white letter-spacing d-md-none d-lg-block" href="#con">CONTACT</router-link>
               </li>
             </ul>
           </div>
